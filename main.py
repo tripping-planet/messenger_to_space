@@ -9,6 +9,8 @@ def send_msg(msg):
 
     print(nick + passwd + passwd_two + passwd_three + msg)
 
+    reg_msg(msg)
+
 
 def reg_msg(msg):
     file_object = open('test.db', 'a')
